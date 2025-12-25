@@ -2,7 +2,7 @@
 
 echo "Setting up dotfiles..."
 
-stow kitty mpv
+stow kitty mpv fastfetch
 
 if [ -f "gnome-settings.ini" ]; then
   echo "Loading GNOME settings..."
