@@ -1,0 +1,52 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Cascadia Mono", "Noto Sans Malayalam", sans-serif;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #1a1b26; /* Tokyo Night Dark Background */
+    /* background: #000000; */ /* Uncomment for pure black like GNOME */
+    color: #c0caf5;
+    border-bottom: 1px solid #24283b; /* A thin line at the bottom */
+}
+
+/* Workspaces (GNOME Style - Underline) */
+#workspaces button {
+    padding: 0 10px;
+    background: transparent;
+    color: #565f89;
+}
+
+#workspaces button.active {
+    color: #c0caf5;
+    box-shadow: inset 0 -2px #7aa2f7; /* A line at the bottom when active */
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Right Modules (Simple Text & Icons) */
+#clock,
+#pulseaudio,
+#network,
+#battery,
+#tray,
+#custom-power {
+    padding: 0 12px;
+    background: transparent;
+    color: #c0caf5;
+}
+
+/* Clock in the center needs to be bold */
+#clock {
+    font-weight: bold;
+}
+
+#custom-power {
+    color: #f7768e; /* Red color for power button */
+    padding-right: 15px;
+}
