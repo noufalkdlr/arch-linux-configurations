@@ -3,7 +3,17 @@
 echo "Setting up dotfiles..."
 
 # Link configurations
-stow kitty mpv fastfetch
+echo "Stowing dotfiles..."
+for folder in */; do
+    folder=${folder%/}
+    
+    if [ "$folder" == ".git" ]; then
+        continue
+    fi
+
+    echo "🔗 Linking $folder..."
+    stow "$folder"
+done
 
 # Install packages
 if [ -f "pkglist.txt" ]; then
