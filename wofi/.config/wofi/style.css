@@ -1,0 +1,59 @@
+/* Tokyo Night Style Wofi */
+
+window {
+    margin: 0px;
+    border: 2px solid #7aa2f7; /* Blue Border */
+    background-color: #1a1b26; /* Dark Background */
+    border-radius: 15px;
+    font-family: "Cascadia Mono", monospace;
+    font-size: 14px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #c0caf5;
+    background-color: #24283b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #a9b1d6;
+}
+
+#entry {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#entry:selected {
+    background-color: #7aa2f7; /* Selected Color (Blue) */
+    color: #1a1b26;
+    border-radius: 10px;
+    border: none;
+}
+
+#entry:selected #text {
+    color: #1a1b26; /* Text color when selected */
+}
