@@ -73,6 +73,7 @@ gvfs-onedrive
 gvfs-smb
 gvfs-wsdd
 htop
+hyprland
 inetutils
 intel-ucode
 iw
@@ -136,6 +137,7 @@ tmux
 tree
 ttf-indic-otf
 vim
+waybar
 wget
 wireless_tools
 wireplumber
