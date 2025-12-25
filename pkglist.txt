@@ -74,6 +74,7 @@ gvfs-smb
 gvfs-wsdd
 htop
 hyprland
+hyprpaper
 inetutils
 intel-ucode
 iw
