@@ -27,7 +27,9 @@ gdb
 gimp
 git
 github-cli
+gnome-calculator
 gnome-disk-utility
+gnome-system-monitor
 gnome-text-editor
 gnome-themes-extra
 gnome-tweaks
@@ -51,6 +53,7 @@ linux-firmware
 linux-headers
 linux-zen
 linux-zen-headers
+loupe
 meld
 mission-center
 mpv
