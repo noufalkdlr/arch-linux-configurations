@@ -36,6 +36,7 @@ gst-plugin-pipewire
 htop
 hyprland
 hyprpaper
+imagemagick
 inetutils
 intel-ucode
 iw
