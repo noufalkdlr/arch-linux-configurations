@@ -2,9 +2,9 @@
 
 window {
     margin: 0px;
-    border: 2px solid #7aa2f7; /* Blue Border */
-    background-color: #1a1b26; /* Dark Background */
-    border-radius: 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #33ccff, #00ff99);
     font-family: "Cascadia Mono", monospace;
     font-size: 14px;
 }
@@ -13,7 +13,7 @@ window {
     margin: 5px;
     border: none;
     color: #c0caf5;
-    background-color: #24283b;
+    background-color: #2B2B2B;
     border-radius: 10px;
     padding: 10px;
 }
@@ -25,9 +25,10 @@ window {
 }
 
 #outer-box {
-    margin: 5px;
-    border: none;
-    background-color: transparent;
+    margin: 2px;
+    padding: 10px;
+    background-color: #0A0A0A;
+    border-radius: 12px;
 }
 
 #scroll {
@@ -38,7 +39,7 @@ window {
 #text {
     margin: 5px;
     border: none;
-    color: #a9b1d6;
+    color: #E8E8E8;
 }
 
 #entry {
@@ -48,12 +49,12 @@ window {
 }
 
 #entry:selected {
-    background-color: #7aa2f7; /* Selected Color (Blue) */
+    background-color: #2B2B2B; /* Selected Color (Gray) */
     color: #1a1b26;
     border-radius: 10px;
     border: none;
 }
 
 #entry:selected #text {
-    color: #1a1b26; /* Text color when selected */
+    color: #E8E8E8; /* Text color when selected */
 }
