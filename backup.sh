@@ -2,15 +2,19 @@
 
 echo "Starting System Backup... 📂"
 
-# 1. Update Package List
+# Update Package List
 echo "📝 Exporting package list..."
 pacman -Qnqe >pkglist.txt
 
-# 2. Update GNOME Settings
+# Update yay Package List
+echo " Exporting yay package list..."
+pacman -Qmqe >aur-pkglist.txt
+
+# Update GNOME Settings
 echo "⚙️ Exporting GNOME settings..."
 dconf dump / >gnome-settings.ini
 
-# 3. Push to GitHub
+# Push to GitHub
 echo "☁️ Pushing to GitHub..."
 git add .
 # Commit with current timestamp
