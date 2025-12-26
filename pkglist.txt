@@ -108,6 +108,7 @@ orca
 os-prober
 pacman-contrib
 papers
+pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -138,6 +139,8 @@ tmux
 tree
 ttf-indic-otf
 vim
+virtualbox
+virtualbox-host-dkms
 waybar
 wget
 wireless_tools

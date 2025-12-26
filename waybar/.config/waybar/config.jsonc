@@ -1,43 +1,66 @@
 {
+  "reload_style_on_change": true,
   "layer": "top",
   "position": "top",
-  "height": 30, // Small height like GNOME
-  "spacing": 0, // No spacing between modules
+  "spacing": 0,
+  "height": 34, // Increased height slightly due to larger icons
   "modules-left": [
+    "custom/menu",
     "hyprland/workspaces"
   ],
   "modules-center": [
     "clock"
   ],
   "modules-right": [
-    "hyprland/language",
-    "tray",
-    "pulseaudio",
+    "group/tray-expander",
     "network",
+    "pulseaudio",
     "battery",
     "custom/power"
   ],
-  // Modules Configuration
+  // --- Workspaces ---
   "hyprland/workspaces": {
-    "format": "{name}", // Just numbers (1, 2, 3...)
     "on-click": "activate",
+    "format": "{icon}",
+    "format-icons": {
+      "default": "",
+      "active": "󱓻"
+    },
     "persistent-workspaces": {
       "*": 5
     }
   },
-  "hyprland/language": {
-    "format": "{}",
-    "format-en": "en",
-    "format-in": "ml",
-    "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next"
+  // --- Custom Menu ---
+  "custom/menu": {
+    "format": " 󰣇 ",
+    "on-click": "wofi --show drun",
+    "tooltip": false
   },
+  // --- Clock ---
   "clock": {
-    "format": "{:%a %b %d  %H:%M}", // GNOME Style (Wed Dec 25 10:30)
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "format": "{:%H:%M}",
+    "format-alt": "{:%A, %B %d, %Y}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>"
   },
+  // --- Network ---
+  "network": {
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰀂",
+    "format-disconnected": "󰤮",
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ],
+    "tooltip-format": "{essid}",
+    "on-click": "kitty nmtui"
+  },
+  // --- Audio ---
   "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-muted": "🔇",
+    "format": "{icon}",
+    "format-muted": "",
     "format-icons": {
       "default": [
         "",
@@ -47,12 +70,7 @@
     },
     "on-click": "pavucontrol"
   },
-  "network": {
-    "format-wifi": "",
-    "format-ethernet": "🔗",
-    "format-disconnected": "⚠️",
-    "tooltip-format": "{essid}"
-  },
+  // --- Battery ---
   "battery": {
     "states": {
       "warning": 30,
@@ -61,16 +79,43 @@
     "format": "{icon} {capacity}%",
     "format-charging": "⚡ {capacity}%",
     "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰁹"
     ]
   },
+  // --- Power Button ---
   "custom/power": {
     "format": "⏻",
     "on-click": "wlogout",
     "tooltip": false
+  },
+  // --- Tray Expander ---
+  "group/tray-expander": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "children-class": "tray-child",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "custom/expand-icon",
+      "tray"
+    ]
+  },
+  "custom/expand-icon": {
+    "format": " ",
+    "tooltip": false
+  },
+  "tray": {
+    "icon-size": 18, // Increased tray icon size (14 -> 18)
+    "spacing": 10
   }
 }
