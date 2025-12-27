@@ -25,6 +25,7 @@ fzf
 gdb
 gimp
 git
+github-cli
 gnome-calculator
 gnome-disk-utility
 gnome-system-monitor
@@ -62,10 +63,12 @@ nautilus
 neovim
 network-manager-applet
 networkmanager
+nodejs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+npm
 ntfs-3g
 nvidia-open-dkms
 nwg-look
