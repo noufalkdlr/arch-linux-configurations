@@ -25,7 +25,6 @@ fzf
 gdb
 gimp
 git
-github-cli
 gnome-calculator
 gnome-disk-utility
 gnome-system-monitor
