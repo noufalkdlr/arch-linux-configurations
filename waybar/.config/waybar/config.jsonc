@@ -116,6 +116,9 @@
   },
   "tray": {
     "icon-size": 18, // Increased tray icon size (14 -> 18)
-    "spacing": 10
+    "spacing": 10,
+    "ignore-list": [
+      "nm-applet"
+    ]
   }
 }
