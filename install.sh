@@ -35,4 +35,10 @@ fi
 echo "Updating font cache..."
 fc-cache -fv
 
+# Enable Services
+echo "Enabling Services... 🔌"
+sudo systemctl enable sddm
+sudo systemctl enable NetworkManager
+sudo systemctl enable bluetooth
+
 echo "Done! All configurations are linked and setup is complete. 🎉"
