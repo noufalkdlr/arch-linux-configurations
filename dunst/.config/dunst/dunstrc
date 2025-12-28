@@ -3,7 +3,7 @@
     width = 300
     height = 100
     origin = top-right
-    offset = 15x50  # Offset from top-right
+    offset = 15x30  # Offset from top-right
     notification_limit = 5
 
     # --- Padding (Inner Space) ---
@@ -13,7 +13,7 @@
     # --- Appearance (Tokyo Night Style) ---
     font = Cascadia Mono 10
     frame_width = 2
-    frame_color = "#7aa2f7"  # Blue border
+    frame_color = "#00ff99"  # Blue border
     corner_radius = 10       # Rounded corners
     separator_color = frame  # Separator matches frame color
 
@@ -27,19 +27,19 @@
 
 [urgency_low]
     # --- Low Priority ---
-    background = "#1a1b26"
+    background = "#000000"
     foreground = "#c0caf5"
     timeout = 2  # 2 seconds only
 
 [urgency_normal]
     # --- Normal Priority (Standard) ---
-    background = "#1a1b26"
+    background = "#000000"
     foreground = "#c0caf5"
     timeout = 2  # Auto-dismiss after 2 seconds ⚡
 
 [urgency_critical]
     # --- Critical Errors ---
-    background = "#1a1b26"
+    background = "#000000"
     foreground = "#f7768e"  # Red text
     frame_color = "#f7768e" # Red border
     timeout = 0  # Requires manual dismissal (Must click)
