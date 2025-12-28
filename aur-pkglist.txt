@@ -1,3 +1,4 @@
+better-control-git
 localsend-bin
 postman-bin
 rofi-wifi-menu-git
