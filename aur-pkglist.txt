@@ -1,7 +1,6 @@
 better-control-git
 localsend-bin
 postman-bin
-rofi-wifi-menu-git
 wlogout
 yay
 yay-debug
