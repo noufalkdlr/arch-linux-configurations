@@ -1,3 +1,4 @@
+baobab
 base
 base-devel
 bc
