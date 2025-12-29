@@ -1,0 +1,35 @@
+
+# General Settings
+sort=-time
+layer=overlay
+background-color=#1e1e1ecc  # Dark Gray with 80% opacity (GTK4 style)
+width=350
+height=110
+border-size=2
+border-color=#3584e4     # GTK Blue Accent
+border-radius=12
+icons=1
+max-icon-size=48
+default-timeout=5000
+ignore-timeout=1
+font=Cascadia Mono 11
+margin=10
+padding=15
+
+# Text Colors
+text-color=#ffffff       # Pure White Text
+summary-font=Cascadia Mono Bold 12
+
+[urgency=low]
+border-color=#242424
+background-color=#1e1e1ecc
+
+[urgency=normal]
+border-color=#3584e4     # Blue border for normal
+background-color=#1e1e1ecc
+
+[urgency=high]
+border-color=#ff7b63     # Red border for high urgency
+background-color=#1e1e1ecc
+text-color=#ffffff
+default-timeout=0

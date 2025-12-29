@@ -13,7 +13,6 @@ cpio
 docker
 docker-compose
 dosfstools
-dunst
 efibootmgr
 evince
 exfatprogs
@@ -56,6 +55,7 @@ linux-headers
 linux-zen
 linux-zen-headers
 loupe
+mako
 meld
 mission-center
 mpv

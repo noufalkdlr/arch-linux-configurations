@@ -1,6 +1,5 @@
 better-control-git
 localsend-bin
 postman-bin
-wlogout
 yay
 yay-debug
