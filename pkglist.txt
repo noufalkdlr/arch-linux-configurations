@@ -9,6 +9,7 @@ brightnessctl
 btrfs-progs
 chafa
 chromium
+cliphist
 cpio
 docker
 docker-compose
