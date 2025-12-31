@@ -1,3 +1,4 @@
+audiorelay
 localsend-bin
 postman-bin
 yay
