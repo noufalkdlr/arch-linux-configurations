@@ -25,6 +25,7 @@ firefox
 fzf
 gdb
 gdm
+ghostty
 gimp
 git
 github-cli
