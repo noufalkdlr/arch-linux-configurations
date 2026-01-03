@@ -109,6 +109,7 @@ ttf-indic-otf
 unzip
 vim
 virtualbox
+virtualbox-guest-iso
 virtualbox-host-dkms
 wget
 wireless_tools
