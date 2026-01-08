@@ -1,3 +1,4 @@
+git-wizard
 localsend-bin
 postman-bin
 yay
