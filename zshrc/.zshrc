@@ -110,3 +110,5 @@ export NVM_DIR="$HOME/.nvm"
 export BROWSER=firefox
 
 fastfetch
+
+alias wiz='docker run --rm -it -v "$(pwd):/app" -w /app arch-wizard'
