@@ -13,6 +13,7 @@ cpio
 docker
 docker-compose
 dosfstools
+dpkg
 efibootmgr
 evince
 exfatprogs
@@ -84,6 +85,7 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+python-pip
 python-sphinx
 python-yaml
 qbittorrent
@@ -91,7 +93,9 @@ qt5-graphicaleffects
 qt5-quickcontrols2
 qt5-svg
 reflector
+rpm-tools
 rsync
+ruby
 rust
 rust-bindgen
 rust-src

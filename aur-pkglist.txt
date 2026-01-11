@@ -1,5 +1,8 @@
-git-wizard
+fpm
+git-wizard-bin
 localsend-bin
 postman-bin
+pyinstaller
+python-inquirer
 yay
 yay-debug
