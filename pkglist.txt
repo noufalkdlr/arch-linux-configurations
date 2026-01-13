@@ -137,3 +137,5 @@ yazi
 yt-dlp
 zram-generator
 zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
