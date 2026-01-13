@@ -1,6 +1,7 @@
 fpm
-git-wizard-bin
+git-wizard
 localsend-bin
+paru
 postman-bin
 pyinstaller
 python-inquirer

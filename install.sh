@@ -7,9 +7,13 @@ echo "Stowing dotfiles..."
 for folder in */; do
   folder=${folder%/}
 
-  if [ "$folder" == ".git" ]; then
+  # Skip specific folders using case
+  case "$folder" in
+  .git | wallpaper)
+    echo "⏭️  Skipping $folder..."
     continue
-  fi
+    ;;
+  esac
 
   echo "🔗 Linking $folder..."
   stow "$folder"
