@@ -18,6 +18,7 @@ map ctrl+shift+n new_os_window_with_cwd
 
 
 # BEGIN_KITTY_THEME
-# Adwaita darker
+# Base2Tone Pool Dark
 include current-theme.conf
 # END_KITTY_THEME
+# background #000000

@@ -36,4 +36,9 @@ zstyle ':completion:*' menu select
 # Autosuggestion color change (Grey)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242'
 
+# --- Color Aliases ---
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias diff='diff --color=auto'
+
 fastfetch
