@@ -109,6 +109,14 @@ export NVM_DIR="$HOME/.nvm"
 
 export BROWSER=firefox
 
-fastfetch
+# --- Yazi Wrapper Function ---
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 
-alias wiz='docker run --rm -it -v "$(pwd):/app" -w /app arch-wizard'
+fastfetch
