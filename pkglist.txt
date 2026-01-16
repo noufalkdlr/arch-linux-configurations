@@ -119,6 +119,7 @@ tmux
 tree
 ttf-indic-otf
 unzip
+uv
 vim
 virtualbox
 virtualbox-guest-iso
