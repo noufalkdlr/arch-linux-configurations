@@ -93,6 +93,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 polkit-gnome
+postgresql-libs
 python-pip
 python-sphinx
 python-yaml

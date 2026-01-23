@@ -6,5 +6,6 @@ paru
 postman-bin
 pyinstaller
 python-inquirer
+visual-studio-code-bin
 yay
 yay-debug
