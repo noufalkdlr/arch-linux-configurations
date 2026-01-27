@@ -1,4 +1,5 @@
 adw-gtk-theme
+archlinux-xdg-menu
 baobab
 base
 base-devel
@@ -10,10 +11,12 @@ btrfs-progs
 chafa
 chromium
 cliphist
+code
 cpio
 dbeaver
 docker
 docker-compose
+dolphin
 dosfstools
 dpkg
 efibootmgr
@@ -57,6 +60,8 @@ iptables
 iw
 iwd
 kitty
+kvantum
+kvantum-qt5
 libpulse
 libva-nvidia-driver
 libvirt
@@ -101,6 +106,7 @@ qbittorrent
 qt5-graphicaleffects
 qt5-quickcontrols2
 qt5-svg
+qt6ct
 reflector
 rpm-tools
 rsync
